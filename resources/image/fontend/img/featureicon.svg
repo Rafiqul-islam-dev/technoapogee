@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="featureicon" transform="translate(-100 -1084)">
+    <path id="Path_85619" data-name="Path 85619" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(100 1084)" fill="#ffebe7" opacity="0.71"/>
+    <g id="Icons_Check" data-name="Icons / Check" transform="translate(105 1089)">
+      <g id="Icon">
+        <rect id="Path" width="20" height="20" fill="none"/>
+        <path id="Color" d="M4.167,7.988,11.911.244a.833.833,0,0,1,1.179,1.179L4.756,9.756a.833.833,0,0,1-1.179,0L.244,6.423A.833.833,0,0,1,1.423,5.244Z" transform="translate(3.333 5)" fill="#ff7758"/>
+      </g>
+    </g>
+  </g>
+</svg>

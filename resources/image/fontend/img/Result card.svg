@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="214" viewBox="0 0 274 214">
+  <defs>
+    <filter id="Rectangle_27922" x="0" y="0" width="274" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Result_card" data-name="Result card" transform="translate(-1150 -658)">
+    <g id="Group_42790" data-name="Group 42790" transform="translate(12393 10305)">
+      <g transform="matrix(1, 0, 0, 1, -11243, -9647)" filter="url(#Rectangle_27922)">
+        <rect id="Rectangle_27922-2" data-name="Rectangle 27922" width="250" height="190" rx="9" transform="translate(12 7)" fill="rgba(255,255,255,0.64)"/>
+      </g>
+      <path id="Rectangle_27923" data-name="Rectangle 27923" d="M9,0H241a9,9,0,0,1,9,9V50H0V9A9,9,0,0,1,9,0Z" transform="translate(-11231 -9640)" fill="rgba(255,255,255,0.64)"/>
+      <g id="Group_42785" data-name="Group 42785">
+        <text id="Name" transform="translate(-11179 -9610)" fill="rgba(255,255,255,0.64)" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Result Management</tspan></text>
+        <g id="Group_42784" data-name="Group 42784">
+          <circle id="Ellipse_1175" data-name="Ellipse 1175" cx="16" cy="16" r="16" transform="translate(-11221 -9631)" fill="rgba(255,255,255,0.64)" opacity="0.1"/>
+          <g id="icon-job-offers" transform="translate(-11214 -9624)">
+            <g id="icon-job-offers-2" data-name="icon-job-offers">
+              <rect id="Rectangle_25784" data-name="Rectangle 25784" width="18" height="18" fill="none"/>
+              <path id="Polygon_15" data-name="Polygon 15" d="M7.454,1.049a1,1,0,0,1,1.593,0l2.335,3.074a1,1,0,0,0,.429.325L15.382,5.86a1,1,0,0,1,.48,1.461l-2.131,3.4a1,1,0,0,0-.152.488l-.174,4.02a1,1,0,0,1-1.277.917L8.528,15.1a1,1,0,0,0-.556,0l-3.6,1.042A1,1,0,0,1,3.1,15.229l-.174-4.02a1,1,0,0,0-.152-.488L.639,7.321a1,1,0,0,1,.48-1.461L4.69,4.448a1,1,0,0,0,.429-.325Z" transform="translate(0.75 1.125)" fill="none" stroke="#349aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_27924" data-name="Rectangle 27924" width="5" height="39" rx="2.5" transform="translate(1189 791)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27927" data-name="Rectangle 27927" width="5" height="61" rx="2.5" transform="translate(1223 769)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27929" data-name="Rectangle 27929" width="5" height="56" rx="2.5" transform="translate(1257 774)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27931" data-name="Rectangle 27931" width="5" height="51" rx="2.5" transform="translate(1308 779)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27934" data-name="Rectangle 27934" width="5" height="46" rx="2.5" transform="translate(1359 784)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27925" data-name="Rectangle 27925" width="5" height="80" rx="2.5" transform="translate(1206 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27926" data-name="Rectangle 27926" width="5" height="80" rx="2.5" transform="translate(1240 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27932" data-name="Rectangle 27932" width="5" height="80" rx="2.5" transform="translate(1291 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27935" data-name="Rectangle 27935" width="5" height="80" rx="2.5" transform="translate(1342 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27928" data-name="Rectangle 27928" width="5" height="80" rx="2.5" transform="translate(1274 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27930" data-name="Rectangle 27930" width="5" height="80" rx="2.5" transform="translate(1325 750)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27933" data-name="Rectangle 27933" width="5" height="69" rx="2.5" transform="translate(1376 761)" fill="#349aff" opacity="0.38"/>
+    <rect id="Rectangle_27936" data-name="Rectangle 27936" width="5" height="43" rx="2.5" transform="translate(1206 750)" fill="#349aff" opacity="0.38"/>
+  </g>
+</svg>

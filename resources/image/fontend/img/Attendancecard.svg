@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="214" viewBox="0 0 274 214">
+  <defs>
+    <filter id="Rectangle_27922" x="0" y="0" width="274" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Attendance_card" data-name="Attendance card" transform="translate(-1453 -467)">
+    <g id="Group_42789" data-name="Group 42789" transform="translate(12972 10114)">
+      <g transform="matrix(1, 0, 0, 1, -11519, -9647)" filter="url(#Rectangle_27922)">
+        <rect id="Rectangle_27922-2" data-name="Rectangle 27922" width="250" height="190" rx="9" transform="translate(12 7)" fill="#fff"/>
+      </g>
+      <path id="Rectangle_27923" data-name="Rectangle 27923" d="M9,0H241a9,9,0,0,1,9,9V50a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(-11507 -9640)" fill="#fff"/>
+      <g id="Group_42786" data-name="Group 42786">
+        <text id="Name" transform="translate(-11455 -9610)" fill="#21263b" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Attendance Management</tspan></text>
+        <g id="Group_42782" data-name="Group 42782" transform="translate(-12401 -10107)">
+          <circle id="Ellipse_1175" data-name="Ellipse 1175" cx="16" cy="16" r="16" transform="translate(904 476)" fill="#fff1ef"/>
+          <g id="icon-activities" transform="translate(911 483)">
+            <g id="icon-activities-2" data-name="icon-activities">
+              <rect id="Rectangle_25989" data-name="Rectangle 25989" width="18" height="18" fill="none"/>
+              <g id="icon-activities-3" data-name="icon-activities" transform="translate(1.5 1.5)">
+                <rect id="Rectangle_25987" data-name="Rectangle 25987" width="15" height="15" rx="2" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+                <path id="Path_35180" data-name="Path 35180" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22303.656)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_64305" data-name="Path 64305" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22308.906)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_35260" data-name="Path 35260" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22305.703)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_64303" data-name="Path 64303" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22310.953)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_64302" data-name="Path 64302" d="M-7338.851-22228.719l1.271,1.535,2.479-3" transform="translate(7341.476 22233.797)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+                <path id="Path_64304" data-name="Path 64304" d="M-7338.851-22228.719l1.271,1.535,2.479-3" transform="translate(7341.476 22239.047)" fill="none" stroke="#ff7758" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_42794" data-name="Group 42794">
+      <text id="Name-2" data-name="Name" transform="translate(1492 557)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Sat</tspan></text>
+      <text id="Name-3" data-name="Name" transform="translate(1527 557)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Sun</tspan></text>
+      <text id="Name-4" data-name="Name" transform="translate(1565 557)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Mon</tspan></text>
+      <text id="Name-5" data-name="Name" transform="translate(1606 557)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Tue</tspan></text>
+      <text id="Name-6" data-name="Name" transform="translate(1643 557)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Wed</tspan></text>
+      <g id="Component_522_2" data-name="Component 522 – 2" transform="translate(1492 573)">
+        <circle id="Ellipse_705" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#10d88d"/>
+        <path id="Path_33824" data-name="Path 33824" d="M-12222-21993.152l3.705,3.176,6.295-8" transform="translate(12227.498 22004.477)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="Component_522_3" data-name="Component 522 – 3" transform="translate(1492 607)">
+        <circle id="Ellipse_705-2" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#10d88d"/>
+        <path id="Path_33824-2" data-name="Path 33824" d="M-12222-21993.152l3.705,3.176,6.295-8" transform="translate(12227.498 22004.477)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="Component_522_4" data-name="Component 522 – 4" transform="translate(1527 571)">
+        <circle id="Ellipse_705-3" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#fa3c4c"/>
+        <g id="Group_24002" data-name="Group 24002" transform="translate(-1300.917 -1720.46)">
+          <rect id="Rectangle_25866" data-name="Rectangle 25866" width="16" height="16" transform="translate(1302.917 1722.46)" fill="none"/>
+          <g id="x" transform="translate(1306.846 1726.389)">
+            <line id="Line_1413" data-name="Line 1413" x1="8" y2="8" transform="translate(0.072 0.071)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <line id="Line_1414" data-name="Line 1414" x2="8" y2="8" transform="translate(0.072 0.071)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+      <g id="Component_522_7" data-name="Component 522 – 7" transform="translate(1651 571)">
+        <circle id="Ellipse_705-4" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#fa3c4c"/>
+        <g id="Group_24002-2" data-name="Group 24002" transform="translate(-1300.917 -1720.46)">
+          <rect id="Rectangle_25866-2" data-name="Rectangle 25866" width="16" height="16" transform="translate(1302.917 1722.46)" fill="none"/>
+          <g id="x-2" data-name="x" transform="translate(1306.846 1726.389)">
+            <line id="Line_1413-2" data-name="Line 1413" x1="8" y2="8" transform="translate(0.072 0.071)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <line id="Line_1414-2" data-name="Line 1414" x2="8" y2="8" transform="translate(0.072 0.071)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+      <g id="Component_522_5" data-name="Component 522 – 5" transform="translate(1568 571)">
+        <circle id="Ellipse_705-5" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#10d88d"/>
+        <path id="Path_33824-3" data-name="Path 33824" d="M-12222-21993.152l3.705,3.176,6.295-8" transform="translate(12227.498 22004.477)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="Component_522_6" data-name="Component 522 – 6" transform="translate(1613 571)">
+        <circle id="Ellipse_705-6" data-name="Ellipse 705" cx="10" cy="10" r="10" fill="#10d88d"/>
+        <path id="Path_33824-4" data-name="Path 33824" d="M-12222-21993.152l3.705,3.176,6.295-8" transform="translate(12227.498 22004.477)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

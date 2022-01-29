@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="224" viewBox="0 0 274 224">
+  <defs>
+    <filter id="Rectangle_27922" x="0" y="0" width="274" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_27943" x="110" y="62" width="78" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Fees_Card" data-name="Fees Card" transform="translate(-862 -459)">
+    <g id="Group_42788" data-name="Group 42788" transform="translate(12657 10106)">
+      <g id="Group_42778" data-name="Group 42778" transform="translate(-13207 -10119)">
+        <g transform="matrix(1, 0, 0, 1, 1412, 472)" filter="url(#Rectangle_27922)">
+          <rect id="Rectangle_27922-2" data-name="Rectangle 27922" width="250" height="200" rx="9" transform="translate(12 7)" fill="#fff"/>
+        </g>
+        <path id="Rectangle_27923" data-name="Rectangle 27923" d="M9,0H241a9,9,0,0,1,9,9V50a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(1424 479)" fill="#fff"/>
+      </g>
+      <g id="Group_42787" data-name="Group 42787">
+        <text id="Name" transform="translate(-11731 -9610)" fill="#21263b" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Fees Management</tspan></text>
+        <g id="Group_42783" data-name="Group 42783" transform="translate(-12677 -10107)">
+          <circle id="Ellipse_1175" data-name="Ellipse 1175" cx="16" cy="16" r="16" transform="translate(904 476)" fill="#ffb329" opacity="0.08"/>
+          <g id="icon-resume" transform="translate(911 483)">
+            <g id="icon-resume-2" data-name="icon-resume">
+              <rect id="Rectangle_25989" data-name="Rectangle 25989" width="18" height="18" fill="none"/>
+              <g id="Group_24280" data-name="Group 24280" transform="translate(1.5 1.5)">
+                <rect id="Rectangle_25987" data-name="Rectangle 25987" width="15" height="15" rx="2" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+                <g id="Rectangle_25988" data-name="Rectangle 25988" transform="translate(2.5 2.5)" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+                  <rect width="5" height="5" stroke="none"/>
+                  <rect x="0.6" y="0.6" width="3.8" height="3.8" fill="none"/>
+                </g>
+                <path id="Path_35180" data-name="Path 35180" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22303.656)" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_35260" data-name="Path 35260" d="M-7428.39-22299.6h2.727" transform="translate(7437.821 22305.703)" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_35182" data-name="Path 35182" d="M-7428.39-22299.6h10" transform="translate(7430.891 22309.223)" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-width="1.2"/>
+                <path id="Path_35183" data-name="Path 35183" d="M-7428.39-22299.6h10" transform="translate(7430.891 22311.723)" fill="none" stroke="#ffb329" stroke-linecap="round" stroke-width="1.2"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_42791" data-name="Group 42791" transform="translate(0 16)">
+      <text id="Name-2" data-name="Name" transform="translate(898 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Jan</tspan></text>
+      <text id="Name-3" data-name="Name" transform="translate(967 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Mar</tspan></text>
+      <text id="Name-4" data-name="Name" transform="translate(1038 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">May</tspan></text>
+      <text id="Name-5" data-name="Name" transform="translate(933 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Feb</tspan></text>
+      <text id="Name-6" data-name="Name" transform="translate(1002 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Apr</tspan></text>
+      <text id="Name-7" data-name="Name" transform="translate(1073 632)" fill="#6b6e7c" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Jun</tspan></text>
+      <rect id="Rectangle_27937" data-name="Rectangle 27937" width="15" height="66" rx="7.5" transform="translate(902 548)" fill="#ffb329" opacity="0.27"/>
+      <rect id="Rectangle_27940" data-name="Rectangle 27940" width="15" height="66" rx="7.5" transform="translate(969 548)" fill="#ffb329" opacity="0.27"/>
+      <rect id="Rectangle_27942" data-name="Rectangle 27942" width="15" height="66" rx="7.5" transform="translate(1042 548)" fill="#ffb329" opacity="0.27"/>
+      <rect id="Rectangle_27938" data-name="Rectangle 27938" width="15" height="66" rx="7.5" transform="translate(937 548)" fill="#ffb329" opacity="0.27"/>
+      <rect id="Rectangle_27939" data-name="Rectangle 27939" width="15" height="66" rx="7.5" transform="translate(1004 548)" fill="#ffb329"/>
+      <rect id="Rectangle_27941" data-name="Rectangle 27941" width="15" height="66" rx="7.5" transform="translate(1077 548)" fill="#ffb329" opacity="0.27"/>
+    </g>
+    <g id="Group_42792" data-name="Group 42792">
+      <g transform="matrix(1, 0, 0, 1, 862, 459)" filter="url(#Rectangle_27943)">
+        <rect id="Rectangle_27943-2" data-name="Rectangle 27943" width="54" height="28" rx="3" transform="translate(122 69)" fill="#fff"/>
+      </g>
+      <text id="Name-8" data-name="Name" transform="translate(994 542)" fill="#595c6c" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">2250tk</tspan></text>
+      <text id="Name-9" data-name="Name" transform="translate(994 550)" fill="#6b6e7c" font-size="5" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Total Payable</tspan></text>
+    </g>
+  </g>
+</svg>

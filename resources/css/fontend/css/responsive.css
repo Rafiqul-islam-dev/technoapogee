@@ -1,0 +1,1215 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 480px) {
+  /*=========Mobile Menu==========*/
+  #header-page {
+    height: 87px;
+    width: 100vw;
+    transition: all 0.5s ease;
+    background-color: #fff;
+  }
+  .moblie-menu {
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+  .hedar-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .humberger {
+    display: inline;
+    width: 35px !important;
+  }
+  .hedar-logo button {
+    background: transparent;
+    height: 37px;
+    margin-top: 11px;
+  }
+  .hedar-logo img {
+    width: 145px;
+    margin-bottom: 50px;
+  }
+  .header-content-inner {
+    display: initial;
+  }
+  .moblie-menu .hedar-menu {
+    display: inline;
+  }
+  .hedar-menu {
+    text-align: center;
+    display: none;
+  }
+  .hedar-menu ul li {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .hedar-contact {
+    text-align: center;
+    margin-top: 65px;
+    display: none;
+  }
+  .moblie-menu .hedar-contact {
+    display: inline;
+  }
+  .hedar-contact a {
+    margin-left: -23px;
+  }
+  /* Common Css */
+  .header-title h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  /* Common Css */
+
+  .header-content {
+    display: none;
+  }
+  .swiper-text {
+    grid-column: 1/ -1;
+    padding: 0 20px;
+  }
+  .swiper-text h4 {
+    font-size: 11px;
+  }
+  .swiper-text h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .swiper-text p {
+    display: none;
+  }
+  .banner-button .sign-up {
+    padding: 11px 5px 12px 9px;
+    font-size: 11px;
+    border-radius: 8px;
+  }
+  .sign-up img {
+    padding-left: 12px;
+    width: 31px;
+  }
+  .watchBtn {
+    font-size: 11px;
+    margin-left: 24px;
+  }
+  .swiper-image {
+    grid-column: 1/ -1;
+    margin-top: 40px;
+  }
+
+  .imgcard img {
+    width: 32%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard {
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardFees {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardAttendanc {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardResult {
+    margin-left: 35%;
+    margin-top: 68%;
+  }
+  .award {
+    padding-bottom: 15px;
+  }
+  .award-item p {
+    font-size: 12px;
+  }
+
+  .odhyyon-erp {
+    padding-top: 35px;
+  }
+  .inpact-erp {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+  .core-feature-iteam-tab {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+  .core-feature-iteam {
+    order: 2;
+  }
+  .core-feature-iteam-tab-img {
+    order: 1;
+  }
+  .another-feature-iteam-tab {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .another-feature-iteam-tab button {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .core-feature-iteam .active {
+    position: relative;
+    width: 100%;
+  }
+  .another-core-feature .core-feature-iteam ul {
+    margin-left: 0%;
+  }
+  .another-core-feature .core-feature-iteam .active {
+    position: relative;
+    width: 100%;
+  }
+  .app-swaipe {
+    width: 100%;
+    height: 400px;
+  }
+  .app-swaipe::after {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-size: 29%;
+  }
+  .googlePlayStore {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .download {
+    text-align: center;
+  }
+  .download h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: -94px;
+  }
+  .download span {
+    font-size: 33px;
+  }
+  .app-slider-mobile {
+    height: 395px;
+  }
+  .playStoreLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .googlelink {
+    width: 145px;
+  }
+  .qrcode {
+    margin-left: 40px;
+    width: 107px;
+  }
+  .educarion-part {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .education-proudct {
+    order: 2;
+    grid-gap: 30px;
+    margin-top: 55px;
+  }
+  .education-app {
+    order: 1;
+  }
+  .education-product-item p {
+    font-size: 11px;
+    padding: 0;
+  }
+  .education-product-item img {
+    width: 95%;
+  }
+  .testmonial {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .testmonial-video {
+    height: 188px;
+    width: 82%;
+    margin-top: 0;
+  }
+  .video-button {
+    width: 60px;
+    height: 60px;
+  }
+  .video-button img {
+    width: 25px;
+  }
+  .clients-iteam {
+    padding: 94px 33px 75px;
+    margin-top: 40px;
+  }
+  .clients-iteam p {
+    font-size: 12px;
+  }
+  .clients-iteam h4 {
+    font-size: 16px;
+    margin-top: 45px;
+  }
+  .clients-iteam h5 {
+    font-size: 13px;
+    margin-left: 77px;
+  }
+  .clients-iteam img {
+    position: absolute;
+    top: 22px;
+    left: 82px;
+    width: 100px;
+    height: 100px;
+  }
+  .e-broucure {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .e-broucure-content .brouchure-inner {
+    padding: 30px 0;
+    height: 100%;
+    border-radius: 160px 160px 160px 160px;
+    margin-left: 0;
+    margin-top: -16px;
+  }
+  .e-broucure-content h3 {
+    font-size: 23px;
+    font-weight: var(--font-light);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-left: 17px;
+    padding-left: 25px;
+  }
+  .brouchure-inner a {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: var(--font-medium);
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+    padding-left: 44px;
+  }
+  .sucription {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sucription-iteam h3,
+  h4 {
+    font-size: 22px;
+  }
+  .sucription-iteam form input {
+    width: 100%;
+    height: 51px;
+  }
+  .sucription-iteam form button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    padding: 9px 35px;
+  }
+  #footer {
+    height: 929px;
+  }
+  #footer::before {
+    content: "";
+    position: absolute;
+    top: 92%;
+    width: 53px;
+    height: 16px;
+  }
+  #footer::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    width: 53px;
+    height: 16px;
+  }
+  .footer-bg {
+    height: 47px;
+  }
+  .footer-bg img {
+    width: 9px;
+  }
+  .footer-bg .boy-image,
+  .girl-image {
+    bottom: 3px;
+  }
+  .footer-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 20px 0 25px 0;
+    grid-template-areas:
+      "ooter-logo ooter-logo"
+      "footer-iteam footer-iteam-faq"
+      "footer-iteam-social footer-iteam-social";
+  }
+  #ooter-logo {
+    grid-area: ooter-logo;
+  }
+
+  #footer-iteam {
+    grid-area: footer-iteam;
+  }
+  #footer-iteam-faq {
+    grid-area: footer-iteam-faq;
+  }
+  #footer-iteam-social {
+    grid-area: footer-iteam-social;
+    text-align: center;
+  }
+  /*===========Product Features==========*/
+
+  .product-header {
+    padding: 30px 7px;
+  }
+  .product-header h2 {
+    font-size: 29px;
+  }
+  .product-header p {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  .product-nav ul li {
+    display: inline-block;
+    padding: 7px 11px;
+    width: 83px;
+    margin-right: 0px;
+    line-height: 11px;
+  }
+  .product-nav ul li a {
+    font-size: 8px;
+    padding: 7px 1px;
+  }
+  .feature-product-details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-prdoucts-item-dashbord {
+    position: relative;
+    margin-top: 0px;
+    height: 238px;
+    order: 1;
+  }
+  .feature-prdoucts-item-dashbord img {
+    position: absolute;
+    top: 52px;
+    left: 72px;
+    width: 69%;
+    height: 73%;
+  }
+  .feature-prdoucts-item p {
+    padding: 0px 0px;
+    font-size: 13px;
+  }
+  .feature-prdoucts-item-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .feature-prdoucts-item-dashbord-right {
+    position: relative;
+    margin-top: 0px;
+    height: 238px;
+  }
+  .feature-prdoucts-item-dashbord-right img {
+    position: absolute;
+    top: 52px;
+    left: 35px;
+    width: 69%;
+    height: 73%;
+  }
+  .well-wisher {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-prdoucts-item {
+    padding: 45px 0 0 0;
+    order: 2;
+  }
+  .feature-prdoucts-item h3 {
+    font-size: 20px;
+  }
+  .feature-prdoucts-item h2 {
+    font-size: 20px;
+  }
+  .faqQuestion .accordion-button {
+    font-size: 16px !important;
+  }
+  .accordion-body {
+    font-size: 12px;
+  }
+  /*============== Pricing==============*/
+  .price-table-header {
+    padding: 30px 0 2px 0;
+  }
+  #priching {
+    padding: 78px 0 125px 0;
+  }
+  .priching-header {
+    padding: 0 5px;
+  }
+  .priching-header h2 {
+    font-size: 25px;
+  }
+  .priching-header p {
+    font-size: 17px;
+    margin-top: 18px;
+  }
+  .priching-iteam-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .calculate {
+    width: 100%;
+  }
+  .pricing {
+    margin: 65px 0px 55px 0px;
+  }
+  .calculate-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+    grid-gap: 20px;
+  }
+  .indupdata input {
+    padding-top: 22px;
+    padding-left: 6px;
+  }
+  .fixdamount {
+    font-size: 18px;
+  }
+  .intuSign {
+    font-size: 14px;
+  }
+  .calculateButton {
+    padding: 0px 75px;
+  }
+  .bkashpay h5 {
+    font-size: 22px;
+  }
+  .bkashpay p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  #odhyyon-payment {
+    padding: 0 0 0px 0;
+  }
+  .odhyyon-payment {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .payment-clients {
+    grid-gap: 15px;
+  }
+  .payment-portal .bkashpay p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  .detail h4 {
+    font-size: 17px;
+  }
+  .bkashpay a {
+    font-size: 9px;
+    padding: 7px 10px 7px 10px;
+  }
+  .payment-clients-odhyyon {
+    margin-top: 30px;
+  }
+  .pricing .table th:first-child {
+    font-size: 8px;
+    width: 52%;
+  }
+  .pricing .table th {
+    font-size: 9px;
+  }
+  .pricing tr td .ptable-title {
+    font-size: 9px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 768px) and (min-width: 482px) {
+   /*=========Mobile Menu==========*/
+   #header-page {
+    height: 87px;
+    width: 100vw;
+    transition: all 0.5s ease;
+    background-color: #fff;
+  }
+  .moblie-menu {
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+  .hedar-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .humberger {
+    display: inline;
+    width: 35px !important;
+  }
+  .hedar-logo button {
+    background: transparent;
+    height: 37px;
+    margin-top: 11px;
+  }
+  .hedar-logo img {
+    width: 145px;
+    margin-bottom: 50px;
+  }
+  .header-content-inner {
+    display: initial;
+  }
+  .moblie-menu .hedar-menu {
+    opacity: 1;
+  }
+  .hedar-menu {
+    text-align: center;
+    opacity: 0;
+  }
+  .hedar-menu ul li {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .hedar-contact {
+    text-align: center;
+    margin-top: 65px;
+    opacity: 0;
+  }
+  .moblie-menu .hedar-contact {
+    opacity: 1;
+  }
+  .hedar-contact a {
+    margin-left: -23px;
+  }
+  /* Common Css */
+  .header-title h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  /* Common Css */
+
+  .header-content {
+    display: none;
+  }
+  .swaipe-banner {
+    transform: translateY(14%);
+}
+  .swiper-text {
+    grid-column: 1/ -1;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .swiper-text h4 {
+    font-size: 11px;
+  }
+  .swiper-text h1 {
+    font-size: 46px;
+    line-height: 55px;
+}
+  .swiper-text p {
+    display: none;
+  }
+  .banner-button .sign-up {
+    padding: 11px 5px 12px 9px;
+    font-size: 11px;
+    border-radius: 8px;
+  }
+  .sign-up img {
+    padding-left: 12px;
+    width: 31px;
+  }
+  .watchBtn {
+    font-size: 11px;
+    margin-left: 24px;
+  }
+  .swiper-image {
+    grid-column: 1/ -1;
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+  .imgcard img {
+    width: 32%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard {
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardFees {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardAttendanc {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardResult {
+    margin-left: 35%;
+    margin-top: 68%;
+  }
+  .award {
+    padding-bottom: 15px;
+  }
+  .award-item p {
+    font-size: 12px;
+  }
+
+  .odhyyon-erp {
+    padding-top: 35px;
+  }
+  .inpact-erp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .core-feature-iteam-tab-img img {
+    margin-left: 5%;
+}
+  .core-feature-iteam-tab {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+  .core-feature-iteam {
+    order: 2;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+  .core-feature-iteam-tab-img {
+    order: 1;
+  }
+  .another-feature-iteam-tab-img {
+    margin-left: 6%;
+}
+.another-feature-iteam-tab .nav {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+  .another-feature-iteam-tab {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .another-feature-iteam-tab button {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .core-feature-iteam .active {
+    position: relative;
+    width: 100%;
+  }
+  .another-core-feature .core-feature-iteam ul {
+    margin-left: 0%;
+  }
+  .another-core-feature .core-feature-iteam .active {
+    position: relative;
+    width: 100%;
+  }
+  .app-swaipe {
+    width: 100%;
+    height: 400px;
+  }
+  .app-swaipe::after {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-size: 29%;
+  }
+  .googlePlayStore {
+    margin-top: 132px;
+}
+  .googlePlayStore {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .download {
+    text-align: center;
+  }
+  .download h3 {
+    font-size: 44px;
+    margin-bottom: 15px;
+    margin-top: -94px;
+  }
+  .app-slider-mobile {
+    height: 585px;
+    width: 76%;
+    margin: auto;
+}
+  .app-slider-mobile {
+    height: 395px;
+  }
+  .playStoreLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .googlelink {
+    width: 145px;
+  }
+  .qrcode {
+    margin-left: 40px;
+    width: 107px;
+  }
+  .educarion-part {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .education-proudct {
+    order: 2;
+    grid-gap: 30px;
+    margin-top: 55px;
+  }
+  .education-app {
+    order: 1;
+  }
+  .education-product-item p {
+    font-size: 11px;
+    padding: 0;
+  }
+  .education-product-item img {
+    width: 95%;
+  }
+  .testmonial {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .testmonial-video {
+    height: 242px;
+    width: 82%;
+    margin-top: 0;
+  }
+  .video-button {
+    width: 60px;
+    height: 60px;
+  }
+  .video-button img {
+    width: 25px;
+  }
+  .clients-iteam {
+    padding: 173px 155px 160px;
+    margin-top: 40px;
+}
+.clients-iteam p {
+  font-size: 20px;
+  padding: 0 35px;
+}
+.clients-iteam h4 {
+  font-size: 26px;
+  margin-top: 45px;
+}
+.clients-iteam h5 {
+  font-size: 17px;
+  margin-left: 88px;
+}
+.clients-iteam img {
+  position: absolute;
+  top: 105px;
+  left: 82px;
+  width: 125px;
+  height: 125px;
+}
+  .e-broucure {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .e-broucure-content .brouchure-inner {
+    padding: 30px 0;
+    height: 100%;
+    border-radius: 160px 160px 160px 160px;
+    margin-left: 0;
+    margin-top: -16px;
+  }
+  .e-broucure-content h3 {
+    font-size: 23px;
+    font-weight: var(--font-light);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-left: 17px;
+    padding-left: 25px;
+  }
+  .brouchure-inner a {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: var(--font-medium);
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+    padding-left: 44px;
+  }
+  .sucription {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sucription-iteam h3,
+  h4 {
+    font-size: 22px;
+  }
+  .sucription-iteam form input {
+    width: 100%;
+    height: 51px;
+  }
+  .sucription-iteam form button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    padding: 9px 35px;
+  }
+  #footer {
+    height: 929px;
+  }
+  #footer::before {
+    content: "";
+    position: absolute;
+    top: 92%;
+    width: 53px;
+    height: 16px;
+  }
+  #footer::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    width: 53px;
+    height: 16px;
+  }
+  .footer-bg {
+    height: 47px;
+  }
+  .footer-bg img {
+    width: 9px;
+  }
+  .footer-bg .boy-image,
+  .girl-image {
+    bottom: 3px;
+  }
+  .footer-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 20px 0 25px 0;
+    grid-template-areas:
+      "ooter-logo ooter-logo"
+      "footer-iteam footer-iteam-faq"
+      "footer-iteam-social footer-iteam-social";
+  }
+  #ooter-logo {
+    grid-area: ooter-logo;
+  }
+
+  #footer-iteam {
+    grid-area: footer-iteam;
+  }
+  #footer-iteam-faq {
+    grid-area: footer-iteam-faq;
+  }
+  #footer-iteam-social {
+    grid-area: footer-iteam-social;
+    text-align: center;
+  }
+  /*===========Product Features==========*/
+
+  .product-header {
+    padding: 30px 7px;
+  }
+  .product-header h2 {
+    font-size: 29px;
+  }
+  .product-header p {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  .product-nav ul li {
+    display: inline-block;
+    padding: 7px 11px;
+    width: 83px;
+    margin-right: 0px;
+    line-height: 11px;
+  }
+  .product-nav ul li a {
+    font-size: 8px;
+    padding: 7px 1px;
+  }
+  .feature-product-details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-prdoucts-item-dashbord {
+    position: relative;
+    margin-top: 0px;
+    height: 238px;
+    order: 1;
+  }
+  .feature-prdoucts-item-dashbord img {
+    position: absolute;
+    top: 52px;
+    left: 72px;
+    width: 69%;
+    height: 73%;
+  }
+  .feature-prdoucts-item p {
+    padding: 0px 0px;
+    font-size: 13px;
+  }
+  .feature-prdoucts-item-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .feature-prdoucts-item-dashbord-right {
+    position: relative;
+    margin-top: 0px;
+    height: 238px;
+  }
+  .feature-prdoucts-item-dashbord-right img {
+    position: absolute;
+    top: 52px;
+    left: 35px;
+    width: 69%;
+    height: 73%;
+  }
+  .well-wisher {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-prdoucts-item {
+    padding: 45px 0 0 0;
+    order: 2;
+  }
+  .feature-prdoucts-item h3 {
+    font-size: 20px;
+  }
+  .feature-prdoucts-item h2 {
+    font-size: 20px;
+  }
+  .faqQuestion .accordion-button {
+    font-size: 16px !important;
+  }
+  .accordion-body {
+    font-size: 12px;
+  }
+  /*============== Pricing==============*/
+  .price-table-header {
+    padding: 30px 0 2px 0;
+  }
+  #priching {
+    padding: 78px 0 125px 0;
+  }
+  .priching-header {
+    padding: 0 5px;
+  }
+  .priching-header h2 {
+    font-size: 25px;
+  }
+  .priching-header p {
+    font-size: 17px;
+    margin-top: 18px;
+  }
+  .priching-iteam-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .calculate {
+    width: 100%;
+  }
+  .pricing {
+    margin: 65px 0px 55px 0px;
+  }
+  .calculate-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+    grid-gap: 20px;
+  }
+  .indupdata input {
+    padding-top: 22px;
+    padding-left: 6px;
+  }
+  .fixdamount {
+    font-size: 18px;
+  }
+  .intuSign {
+    font-size: 14px;
+  }
+  .calculateButton {
+    padding: 0px 75px;
+  }
+  .bkashpay h5 {
+    font-size: 22px;
+  }
+  .bkashpay p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  #odhyyon-payment {
+    padding: 0 0 0px 0;
+  }
+  .odhyyon-payment {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .payment-clients {
+    grid-gap: 15px;
+  }
+  .payment-portal .bkashpay p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  .detail h4 {
+    font-size: 17px;
+  }
+  .bkashpay a {
+    font-size: 9px;
+    padding: 7px 10px 7px 10px;
+  }
+  .payment-clients-odhyyon {
+    margin-top: 30px;
+  }
+  .pricing .table th:first-child {
+    font-size: 8px;
+    width: 52%;
+  }
+  .pricing .table th {
+    font-size: 9px;
+  }
+  .pricing tr td .ptable-title {
+    font-size: 9px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .swiper-text h4 {
+    font-size: 13px;
+  }
+  .swiper-text h1 {
+    font-size: 35px;
+  }
+  .swiper-image img {
+    width: 75%;
+    margin-left: 14%;
+  }
+  .imgcard img {
+    width: 65% !important;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardAttendanc {
+    top: -69%;
+    left: -10%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardResult {
+    margin-top: -22%;
+    margin-left: 144%;
+  }
+  .swiper-slide-visible .swiper-image .imgcard .cardFees {
+    top: 98%;
+    left: 55%;
+  }
+  .swaipe-banner {
+    width: 100%;
+    transform: translateY(15%);
+  }
+  .banner-button .sign-up {
+    padding: 13px 9px 13px 22px;
+    font-size: 14px;
+    border-radius: 7px;
+  }
+  .sign-up img {
+    padding-left: 19px;
+    width: 44px;
+  }
+  .watchBtn {
+    font-size: 16px;
+    margin-left: 22px;
+  }
+  .watchBtn img {
+    width: 24px;
+    margin-right: 6px;
+  }
+  .award {
+    bottom: -25px;
+  }
+  .award-item img {
+    width: 45%;
+    height: auto;
+  }
+
+  .calculateiteam {
+    padding: 39px 20px 45px 21px;
+  }
+
+  .indupdata input::placeholder {
+    font-size: 40px;
+  }
+  .indupdata input {
+    padding-left: 0px;
+  }
+  .fixdamount {
+    font-size: 20px;
+  }
+  .intuSign {
+    font-size: 20px;
+  }
+  .totalCalculate p {
+    font-size: 40px;
+  }
+  .app-swaipe {
+    width: 90%;
+  }
+  .clients-iteam {
+    background-image: url(../img/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 172px 126px 122px;
+    position: relative;
+  }
+  .footer-bg .boy-image,
+  .girl-image {
+    height: 54%;
+  }
+  .footer-bg {
+    height: 207px;
+  }
+  /*===========Product Features==========*/
+  .product-nav ul li {
+    width: 140px;
+  }
+  .feature-prdoucts-item-dashbord img {
+    position: absolute;
+    top: 85px;
+    left: 113px;
+    width: 70%;
+    height: 64%;
+}
+.feature-prdoucts-item-dashbord-right img {
+  position: absolute;
+  top: 129px;
+  left: 51px;
+  width: 70%;
+  height: 54%;
+}
+  /*=====End=======*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media screen and (max-width: 1200px) {
+} */
