@@ -50,7 +50,7 @@ Route::get('/design-consultancy-services', [FontendController::class, 'designCon
 // Route::get('/electrical-fire-safety-audit-consultancy-dife', [FontendController::class, 'electricalFireAudit'])->name('electrical-fire-safety-audit-consultancy-dife');
 
 
-Route::get('str_replace("page", " ", {slug})', [ProductController::class, 'index']);
+Route::get('{slug}', [ProductController::class, 'index']);
 
 
 // //Fontend Page route
@@ -113,49 +113,49 @@ Route::get('str_replace("page", " ", {slug})', [ProductController::class, 'index
 // Route::get('/automatic-manual-retractable-gate', [FontendController::class, 'retractableGate'])->name('automatic-manual-retractable-gate');
 // Route::get('/video-management-systems', [FontendController::class, 'videoManagement'])->name('video-management-systems');
 
-Route::get('/our-project', [FontendController::class, 'ourProject'])->name('our-project');
-Route::get('/ongoing-project', [FontendController::class, 'ongoingProject'])->name('ongoing-project');
-Route::get('/complete-project', [FontendController::class, 'completeProject'])->name('complete-project');
-Route::get('/industry-projects', [FontendController::class, 'industryProjects'])->name('industry-projects');
-Route::get('/bank-financial-projects', [FontendController::class, 'bankProjects'])->name('bank-financial-projects');
-Route::get('/ngo', [FontendController::class, 'ngo'])->name('ngo');
-Route::get('/club', [FontendController::class, 'club'])->name('club');
-Route::get('/hotel-resorts', [FontendController::class, 'hotelResorts'])->name('hotel-resorts');
-Route::get('/govt-projects', [FontendController::class, 'govtProjects'])->name('govt-projects');
-Route::get('/commercial-building-projects', [FontendController::class, 'commercialProjects'])->name('commercial-building-projects');
+Route::get('project/our-project', [FontendController::class, 'ourProject'])->name('project.our-project');
+Route::get('project/ongoing-project', [FontendController::class, 'ongoingProject'])->name('project.ongoing-project');
+Route::get('project/complete-project', [FontendController::class, 'completeProject'])->name('project.complete-project');
+Route::get('project/industry-projects', [FontendController::class, 'industryProjects'])->name('project.industry-projects');
+Route::get('project/bank-financial-projects', [FontendController::class, 'bankProjects'])->name('project.bank-financial-projects');
+Route::get('project/ngo', [FontendController::class, 'ngo'])->name('project.ngo');
+Route::get('project/club', [FontendController::class, 'club'])->name('project.club');
+Route::get('project/hotel-resorts', [FontendController::class, 'hotelResorts'])->name('project.hotel-resorts');
+Route::get('project/govt-projects', [FontendController::class, 'govtProjects'])->name('project.govt-projects');
+Route::get('project/commercial-building-projects', [FontendController::class, 'commercialProjects'])->name('project.commercial-building-projects');
 
 
 //BACKEND
 
 //Backend Controller Clients
-Route::get('/menu', [MenuController::class, 'index'])->name('menu');
-Route::post('/addmenu', [MenuController::class, 'addmenu'])->name('addmenu');
-Route::get('/editmenu/{id}', [MenuController::class, 'editmenu'])->name('editmenu');
-Route::post('/updateMenu/{id}', [MenuController::class, 'updateMenu'])->name('updateMenu');
-Route::get('/delet/{id}', [MenuController::class, 'delet'])->name('delet');
+Route::get('admin/menu', [MenuController::class, 'index'])->name('admin.menu');
+Route::post('admin/addmenu', [MenuController::class, 'addmenu'])->name('admin.addmenu');
+Route::get('admin/editmenu/{id}', [MenuController::class, 'editmenu'])->name('admin.editmenu');
+Route::post('admin/updateMenu/{id}', [MenuController::class, 'updateMenu'])->name('admin.updateMenu');
+Route::get('admin/delet/{id}', [MenuController::class, 'delet'])->name('admin.delet');
 
 
 
 // Backend Controller NewsEvent
-Route::get('/newsEvent', [NewsEventController::class, 'index'])->name('newsEvent');
-Route::post('/addNewsEvent', [NewsEventController::class, 'addNewsEvent'])->name('addNewsEvent');
-Route::get('/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('editNewsEvent');
-Route::post('/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('updateNewsEvent');
-Route::get('/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('deletnews');
+Route::get('admin/newsEvent', [NewsEventController::class, 'index'])->name('admin.newsEvent');
+Route::post('admin/addNewsEvent', [NewsEventController::class, 'addNewsEvent'])->name('admin.addNewsEvent');
+Route::get('admin/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('admin.editNewsEvent');
+Route::post('admin/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('admin.updateNewsEvent');
+Route::get('admin/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('admin.deletnews');
 
 // Backend Controller ComplitedProject
-Route::get('/completeProject', [ProjectController::class, 'index'])->name('completeProject');
-Route::post('/addCompletedProject', [ProjectController::class, 'addCompletedProject'])->name('addCompletedProject');
-Route::get('/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('editNewsEvent');
-Route::post('/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('updateNewsEvent');
-Route::get('/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('deletnews');
+Route::get('admin/completeProject', [ProjectController::class, 'index'])->name('admin.completeProject');
+Route::post('admin/addCompletedProject', [ProjectController::class, 'addCompletedProject'])->name('admin.addCompletedProject');
+Route::get('admin/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('admin.editNewsEvent');
+Route::post('admin/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('admin.updateNewsEvent');
+Route::get('admin/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('admin.deletnews');
 
 // Backend Controller ongoingProject
-Route::get('/ongoingProject', [ProjectController::class, 'ongoingProject'])->name('ongoingProject');
-Route::post('/addongoingProject', [ProjectController::class, 'addongoingProject'])->name('addongoingProject');
-Route::get('/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('editNewsEvent');
-Route::post('/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('updateNewsEvent');
-Route::get('/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('deletnews');
+Route::get('admin/ongoingProject', [ProjectController::class, 'ongoingProject'])->name('admin.ongoingProject');
+Route::post('admin/addongoingProject', [ProjectController::class, 'addongoingProject'])->name('admin.addongoingProject');
+Route::get('admin/editNewsEvent/{id}', [NewsEventController::class, 'editNewsEvent'])->name('admin.editNewsEvent');
+Route::post('admin/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEvent'])->name('admin.updateNewsEvent');
+Route::get('admin/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('admin.deletnews');
 
 
 

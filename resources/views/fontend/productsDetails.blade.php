@@ -6,6 +6,9 @@
         width: 100%;
         height: 450px;
     }
+    .product img{
+        height: 250px;
+    }
 </style>
 
 <!-- Breadcrumbs Start -->
@@ -13,7 +16,7 @@
     <div class="container">
         <div class="breadcrumbs-inner">
          
-            {{-- <h1 class="page-title">{{$menudata->name}}</h1>                        --}}
+            <h1 class="page-title">{{$menudata->name}}</h1>                       
             
         </div>
     </div>
@@ -24,13 +27,12 @@
 <div class="rs-services style2 rs-services-style2 gray-bg pt-100 md-pt-70 md-pb-70">
     <div class="container custom">
         <div class="row">
-
             <div class="col-lg-12 col-md-6 mb-20">
                 <div class="service-wrap">
                 <div class="image-part prodectDetail_img">
-                    {{-- <img src="{{ asset($menudata->image)}}" alt=""> --}}
+                    <img src="{{ asset($menudata->image)}}" alt="">
                 </div>
-                    {{-- <p>{!! $menudata->description !!}</p> --}}
+                    <p>{!! $menudata->description !!}</p>
                 </div>
              </div>
            
@@ -44,13 +46,13 @@
     <div class="container custom">
         <div class="row">
 
-            {{-- @foreach ($menudata as $item)
-            @if ($item->submenu_id == $item->id)
+            @foreach ($submenu_data as $item)
+            
                 
             
             <div class="col-lg-4 col-md-6 mb-20">
                 <div class="service-wrap">
-                    <div class="image-part">
+                    <div class="image-part product">
                         <img src="{{ asset($item->image)}}" alt="">
                     </div>
                     <div class="content-part">
@@ -59,8 +61,7 @@
                     </div>
                 </div>
              </div>
-             @endif
-             @endforeach --}}
+             @endforeach
            
         </div>
     </div>

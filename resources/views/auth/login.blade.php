@@ -12,7 +12,7 @@
                 <!-- Validation Errors -->
                 <x-auth-validation-errors class="mb-4" :errors="$errors" />
                 <div class="p-3">
-                    <form method="POST" action="{{ route('login') }}" class="form-horizontal m-t-20">
+                    <form method="POST" action="{{ route('admin.login') }}" class="form-horizontal m-t-20">
                         @csrf
                         <div class="form-group row">
                             <div class="col-12">

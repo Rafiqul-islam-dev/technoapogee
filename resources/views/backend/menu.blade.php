@@ -46,9 +46,9 @@
                                         <td>{{$item->parentid }} </td>
                                         <td>{{$item->submenu_id }} </td>
                                         <td>
-                                            <a href="{{ route('delet', $item->id) }}"
+                                            <a href="{{ route('admin.delet', $item->id) }}"
                                                 class="delet btn btn-danger mr-2">Delet</a>
-                                            <a href="{{ route('editmenu', $item->id ) }}"
+                                            <a href="{{ route('admin.editmenu', $item->id ) }}"
                                                 class="edit btn btn-info">Edit</a>
                                         </td>
                                     </tr>
@@ -78,7 +78,7 @@
                             <div class="card m-b-30">
                                 <div class="card-body">
 
-                                    <form class="" action="{{ route('addmenu') }}" method="POST"
+                                    <form class="" action="{{ route('admin.addmenu') }}" method="POST"
                                         enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-group">

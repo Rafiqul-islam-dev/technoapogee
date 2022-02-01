@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{ Route('menu') }}" class="waves-effect">
+                <a href="{{ Route('admin.menu') }}" class="waves-effect">
                     <i class="mdi mdi-airplay"></i> <span>Menu </span>
                 </a>
             </li>
@@ -29,9 +29,9 @@
                             class="mdi mdi-chevron-right"></i></span>
                 </a>
                 <ul class="list-unstyled">
-                    <li><a href="{{ Route('newsEvent') }}">News Event View</a></li>
-                    <li><a href="{{ Route('ongoingProject') }}">Ongoing Project</a></li>
-                    <li><a href="{{ Route('completeProject') }}">Complete Project</a></li>
+                    <li><a href="{{ Route('admin.newsEvent') }}">News Event View</a></li>
+                    <li><a href="{{ Route('admin.ongoingProject') }}">Ongoing Project</a></li>
+                    <li><a href="{{ Route('admin.completeProject') }}">Complete Project</a></li>
                 </ul>
             </li>
             

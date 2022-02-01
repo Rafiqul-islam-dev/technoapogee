@@ -105,7 +105,7 @@
                             <div class="card m-b-30">
                                 <div class="card-body">
 
-                                    <form class="" action="{{ route('addongoingProject') }}" method="POST"
+                                    <form class="" action="{{ route('admin.addongoingProject') }}" method="POST"
                                         enctype="multipart/form-data">
                                         @csrf
 

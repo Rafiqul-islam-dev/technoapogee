@@ -52,7 +52,7 @@ class ProjectController extends Controller
         }
 
         $news->save();
-        return redirect('completeProject')->with(['message' => 'Added successfully']);
+        return redirect()->back()->with('success', 'your message,here');
     }
 
     public function addongoingProject(Request $request)
@@ -84,7 +84,7 @@ class ProjectController extends Controller
         }
 
         $news->save();
-        return redirect('ongoingProject')->with(['message' => 'Add successfully']);
+        return redirect()->back()->with('success', 'your message,here');
     }
 
 

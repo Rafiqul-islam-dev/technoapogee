@@ -4,7 +4,7 @@
             <div class="card m-b-30">
                 <div class="card-body">
 
-                    <form class="" action="{{ route('updateMenu', $menu->id) }}" method="POST"
+                    <form class="" action="{{ route('admin.updateMenu', $menu->id) }}" method="POST"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">

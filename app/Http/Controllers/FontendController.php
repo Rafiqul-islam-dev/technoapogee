@@ -110,4 +110,11 @@ class FontendController extends Controller
         //dd($Project);
         return view('fontend.projectDetails', compact('Project'));
     }
+
+    public function missionVission()
+    {
+        dd('ok');
+    }
+
+
 }

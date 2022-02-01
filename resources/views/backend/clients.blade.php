@@ -89,7 +89,7 @@
                             <div class="card m-b-30">
                                 <div class="card-body">
 
-                                    <form class="" action="{{ route('addClients') }}" method="POST"
+                                    <form class="" action="{{ route('admin.addClients') }}" method="POST"
                                         enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-group">

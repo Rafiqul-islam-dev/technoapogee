@@ -82,7 +82,7 @@
 
                                                                 @if ($item->parentid== 2)
                                                                 {{-- <li><a href="{{ url('str_replace("page", " "', $item->slug)}}">{{$item->name}}</a></li> --}}
-                                                                <li><a href="{{ url(str_replace("page", " ", $item->slug)) }}">{{$item->name}}</a></li>
+                                                                <li><a href="{{ url( $item->slug ) }}">{{$item->name}}</a></li>
                                                                 @endif
                                                                 
                                                            @endforeach
@@ -95,7 +95,7 @@
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 3)
                                                                     
-                                                                <li><a href="{{ url('page', $item->slug)}}">{{$item->name}}</a></li>
+                                                                <li><a href="{{ url($item->slug)}}">{{$item->name}}</a></li>
                                                                 @endif
                                                                 
                                                               @endforeach
@@ -107,7 +107,7 @@
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 4)
                                                                     
-                                                                <li><a href="{{ url('page', $item->slug)}}">{{$item->name}}</a></li>
+                                                                <li><a href="{{ url($item->slug)}}">{{$item->name}}</a></li>
                                                                 @endif
                                                                 
                                                               @endforeach
@@ -119,7 +119,7 @@
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 5)
                                                                     
-                                                                <li><a href="{{ url('page',$item->slug)}}">{{$item->name}}</a></li>
+                                                                <li><a href="{{ url($item->slug)}}">{{$item->name}}</a></li>
                                                                 @endif
                                                                 
                                                               @endforeach
@@ -131,19 +131,19 @@
                                         </li>
 
                                         <li class="menu-item-has-children">
-                                            <a href="{{ route('our-project')}}">Our project</a>
+                                            <a href="{{ route('project.our-project')}}">Our project</a>
                                             <ul class="sub-menu">
-                                                <li><a href="{{ route('ongoing-project')}}">Ongoing Project</a></li>
+                                                <li><a href="{{ route('project.ongoing-project')}}">Ongoing Project</a></li>
                                                 <li class="menu-item-has-children-sub">
-                                                    <a href="{{ route('complete-project')}}">Complete Project</a>
+                                                    <a href="{{ route('project.complete-project')}}">Complete Project</a>
                                                     <ul>
-                                                        <li><a href="{{ route('industry-projects')}}">Industry Projects</a></li>
-                                                        <li><a href="{{ route('bank-financial-projects')}}">Bank & Financial Projects</a></li>
-                                                        <li><a href="{{ route('ngo')}}">NGO</a></li>
-                                                        <li><a href="{{ route('club')}}">Club</a></li>
-                                                        <li><a href="{{ route('hotel-resorts')}}">Hotel & Resorts</a></li>
-                                                        <li><a href="{{ route('govt-projects')}}">Govt. Projects</a></li>
-                                                        <li><a href="{{ route('commercial-building-projects')}}">Commercial Building Projects</a></li>
+                                                        <li><a href="{{ route('project.industry-projects')}}">Industry Projects</a></li>
+                                                        <li><a href="{{ route('project.bank-financial-projects')}}">Bank & Financial Projects</a></li>
+                                                        <li><a href="{{ route('project.ngo')}}">NGO</a></li>
+                                                        <li><a href="{{ route('project.club')}}">Club</a></li>
+                                                        <li><a href="{{ route('project.hotel-resorts')}}">Hotel & Resorts</a></li>
+                                                        <li><a href="{{ route('project.govt-projects')}}">Govt. Projects</a></li>
+                                                        <li><a href="{{ route('project.commercial-building-projects')}}">Commercial Building Projects</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>

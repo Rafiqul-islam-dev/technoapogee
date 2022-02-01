@@ -41,7 +41,7 @@ class MenuController extends Controller
         }
 
         $menu->save();
-        return redirect('menu')->with(['message' => 'Add successfully']);
+        return redirect()->back()->with('success', 'your message,here');
     }
 
 
@@ -77,7 +77,7 @@ class MenuController extends Controller
             $menu['image'] = $image_url;
         }
         $menu->save();
-        return redirect('menu')->with(['message' => 'Add successfully']);
+        return redirect()->back()->with('success', 'your message,here');
     }
 
 
