@@ -37,7 +37,7 @@ Route::get('/our-team', [FontendController::class, 'ourTeam'])->name('our-team')
 Route::get('/our-expertise', [FontendController::class, 'ourExpertise'])->name('our-expertise');
 Route::get('/strategic-partners', [FontendController::class, 'strategicPartners'])->name('strategic-partners');
 Route::get('/enlistment', [FontendController::class, 'enlistment'])->name('enlistment');
-Route::get('/contact-us', [FontendController::class, 'contact-us'])->name('contact-us');
+Route::get('/contact-us', [FontendController::class, 'contactUs'])->name('contact-us');
 
 Route::get('/portfolio/{slug}', [FontendController::class, 'portfolio'])->name('portfolio');
 

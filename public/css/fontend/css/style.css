@@ -5187,3 +5187,65 @@ body .search-modal .close:hover {
   background-size: cover;
   padding: 40px 35px 40px 35px;
 }
+
+#contact-information {
+  padding: 70px 0;
+  background: #1e74c521;
+}
+.address-contact {
+  padding: 30px 25px;
+  box-shadow: 3px 0 15px 0 #9e9e9e;
+  background: #fff;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.address-contact h5 {
+  font-size: 20px;
+  color: #5358B2;
+  font-weight: 400;
+  padding: 7px 0;
+}
+.address-contact h6 {
+  font-size: 15px;
+  color: #7C7C7C;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+#conform {
+  background: #e2edf7;
+}
+
+.iframe {
+  padding: 50px 0;
+  background: #e2edf7;
+}
+.contactlist {
+  box-shadow: 3px 0 15px 0 #9e9e9e66;
+  padding: 60px 80px;
+  background: #fff;
+}
+.contactlist form input {
+  height: 60px;
+  background: #ECECEC;
+  border: none;
+  margin: 0 0 20px 0;
+}
+.contactlist form textarea {
+  width: 100%;
+  height: 70px;
+  padding-left: 20px;
+  background: #ECECEC;
+  border: none;
+}
+.contactlist button {
+  background: #5358B2;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.contact-map{
+  margin: -15px 0 0 0;
+}

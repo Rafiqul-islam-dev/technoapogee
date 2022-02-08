@@ -1,4 +1,6 @@
 @extends('fontend.layout.masterLayout')
+
+@section('title') {{$menudata->name}}@endsection
 @section('content')
 
 <style>
@@ -7,15 +9,25 @@
         height: 450px;
     }
     .product img{
-        height: 250px;
+        width: 100% !important;
+        height: 250px !important;
     }
+    .prodectDetail_img {
+    width: 80%;
+    margin: auto;
+}
+.content-part .desc a {
+    font-size: 11px;
+}
+.productPageInnder {
+    margin-bottom: -5px;
+}
 </style>
 
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs img6">
     <div class="container">
         <div class="breadcrumbs-inner">
-         
             <h1 class="page-title">{{$menudata->name}}</h1>                       
             
         </div>

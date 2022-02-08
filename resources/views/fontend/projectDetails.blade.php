@@ -1,5 +1,5 @@
 @extends('fontend.layout.masterLayout')
-@section('title', 'Fire Panel Repair & Maintenance BD - Techno Apogee')
+@section('title') {{$Project->name}} @endsection
 @section('content')
 
 <style>
@@ -7,6 +7,7 @@
     width: 100%;
     height: 400px;
 }
+
 </style>
        <!-- Breadcrumbs Start -->
        <div class="rs-breadcrumbs">
@@ -75,9 +76,7 @@
             </div>
             <!-- Project Section End -->
 
-           
-            <!-- About Section End -->
         </div> 
         <!-- Main content End -->
 
-        @endsection
+@endsection

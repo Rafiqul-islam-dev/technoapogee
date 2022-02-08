@@ -11,11 +11,12 @@ class ProductController extends Controller
     {
         $menu= Menu::get();
         $menudata= Menu::where('slug', $slug)->get()->first();
-       $submenu_data = Menu::where('submenu_id',$menudata->id)->get();
+        $submenu_data = Menu::where('submenu_id',$menudata->id)->get();
        
     //   dd($menudata);
+
+       // dd($submenu_data);
         return view('fontend.productsDetails', compact('menu', 'menudata', 'submenu_data'));
       
-       //dd($submenu_data);
     }
 }
