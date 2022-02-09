@@ -59,7 +59,7 @@
                                             <a href="{{('/')}}">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="{{ route('about-us')}}">About Us</a>
+                                            <a href="">About Us</a>
                                             <ul class="sub-menu">
                                                 <li><a href="{{ route('our-mission-vision')}}">Our Mission & Vision</a></li>
                                                 <li><a href="{{ route('our-team')}}">Our Team</a></li>
@@ -77,21 +77,21 @@
                                                     <div class="sub-menu-mega">
                                                         <div class="meu-item " style="padding-left: 56px;">
                                                             <a href="{{ route('design-consultancy-services')}}">DESIGN & CONSULTANCY SERVICES</a>
-                                                           <ul>
+                                                           {{-- <ul>
                                                             @foreach ($menu as $item)
 
                                                                 @if ($item->parentid== 2)
-                                                                {{-- <li><a href="{{ url('str_replace("page", " "', $item->slug)}}">{{$item->name}}</a></li> --}}
+                                                               
                                                                 <li><a href="{{ url( $item->slug ) }}">{{$item->name}}</a></li>
                                                                 @endif
                                                                 
                                                            @endforeach
                                                                
-                                                           </ul>
+                                                           </ul> --}}
                                                         </div>
                                                         <div class="meu-item ">
                                                             <a href="{{ route('electrical-solution')}}">ELECTRICAL SOLUTION</a>
-                                                            <ul>
+                                                            {{-- <ul>
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 3)
                                                                     
@@ -99,11 +99,11 @@
                                                                 @endif
                                                                 
                                                               @endforeach
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                         <div class="meu-item">
                                                             <a href="{{ route('fire-electrical-solution')}}">FIRE SOLUTION</a>
-                                                            <ul>
+                                                            {{-- <ul>
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 4)
                                                                     
@@ -111,11 +111,11 @@
                                                                 @endif
                                                                 
                                                               @endforeach
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                         <div class="meu-item">
                                                             <a href="{{ route('automation-solution')}}">AUTOMATION SOLUTION</a>
-                                                            <ul>
+                                                            {{-- <ul>
                                                                 @foreach ($menu as $item)
                                                                 @if ($item->parentid== 5)
                                                                     
@@ -123,7 +123,7 @@
                                                                 @endif
                                                                 
                                                               @endforeach
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                     </div>
                                                 </li>

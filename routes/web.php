@@ -32,6 +32,7 @@ Route::get('/dashboard', function () {
 
 // About Us
 Route::get('/', [FontendController::class, 'index'])->name('home');
+Route::get('/about-us', [FontendController::class, 'aboutUs'])->name('about-us');
 Route::get('/our-mission-vision', [FontendController::class, 'missionVission'])->name('our-mission-vision');
 Route::get('/our-team', [FontendController::class, 'ourTeam'])->name('our-team');
 Route::get('/our-expertise', [FontendController::class, 'ourExpertise'])->name('our-expertise');
@@ -39,7 +40,7 @@ Route::get('/strategic-partners', [FontendController::class, 'strategicPartners'
 Route::get('/enlistment', [FontendController::class, 'enlistment'])->name('enlistment');
 Route::get('/contact-us', [FontendController::class, 'contactUs'])->name('contact-us');
 
-Route::get('/portfolio/{slug}', [FontendController::class, 'portfolio'])->name('portfolio');
+Route::get('/portfolio/{slug_name}', [FontendController::class, 'portfolio'])->name('portfolio');
 
 
 // Mani Menu

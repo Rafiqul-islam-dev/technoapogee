@@ -106,14 +106,20 @@ class FontendController extends Controller
         return view('fontend.commirsialProjects', compact('indProject', 'menu'));
     }
 
-    public function portfolio($slug)
+    public function portfolio($slug_name)
     {
         $menu= Menu::get();
-        $Project = Project::where("slug", $slug)->get();
-        dd($Project);
+      // $Project = Project::find($slug_name);
+       $Project = Project::where("slug_name", $slug_name)->get();
+       //dd($Project);
         return view('fontend.projectDetails', compact('Project', 'menu'));
     }
+public  function aboutUs()
+{
+    $menu= Menu::get();
+    return view('fontend.aboutUs', compact('menu'));
 
+}
 public function missionVission()
 {
     dd('ok');

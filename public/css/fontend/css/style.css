@@ -5249,3 +5249,8 @@ body .search-modal .close:hover {
 .contact-map{
   margin: -15px 0 0 0;
 }
+.weDoContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

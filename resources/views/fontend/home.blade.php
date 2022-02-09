@@ -247,7 +247,7 @@
                         <img src="{{ URL::to($item->image) }}" alt="">
                     </div>
                     <div class="blog-contant">
-                        <h4 class="title"><a href="{{route('portfolio', $item->slug)}}">{{$item->name}}</a></h4>
+                        <h4 class="title"><a href="{{route('portfolio', $item->slug_name)}}">{{$item->name}}</a></h4>
 
                         <div class="desc">Praesent eu dolor eu orci vehicula euismod Vivamus sed solli.</div>
                         <div class="blog-meta">

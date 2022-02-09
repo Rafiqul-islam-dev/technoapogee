@@ -33,7 +33,7 @@ class ProjectController extends Controller
         $news = new Project();
         $news->status = $request->status;
         $news->name = $request->name;
-        $news->slug = Str::slug($request->name, '-');
+        $news->slug_name = Str::slug($request->name, '-');
         $news->companytype = $request->companytype;
         $news->Location = $request->Location;
         $news->workscope = $request->workscope;
@@ -65,7 +65,7 @@ class ProjectController extends Controller
         $news = new Project();
         $news->status = $request->status;
         $news->name = $request->name;
-        $news->slug = Str::slug($request->name, '-');
+        $news->slug_name = Str::slug($request->name, '-');
         $news->companytype = $request->companytype;
         $news->Location = $request->Location;
         $news->workscope = $request->workscope;

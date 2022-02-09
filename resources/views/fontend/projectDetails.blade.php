@@ -1,5 +1,7 @@
 @extends('fontend.layout.masterLayout')
-@section('title') {{$Project->name}} @endsection
+@foreach ( $Project as $item)
+@section('title') {{$item->name}} @endsection 
+@endforeach
 @section('content')
 
 <style>
@@ -13,7 +15,7 @@
        <div class="rs-breadcrumbs">
         <div class="container">
             <div class="breadcrumbs-inner">
-                @foreach ($Project as $item)
+                @foreach ( $Project as $item)
                 <h1 class="page-title">
                     {{$item->name}}
                 </h1>

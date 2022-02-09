@@ -24,12 +24,12 @@
                         <a href="#">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <a href="{{route('portfolio', $item->slug)}}"><img src="{{ URL::to($item->image) }}" alt="images"></a>
+                                    <a href="{{route('portfolio', $item->slug_name)}}"><img src="{{ URL::to($item->image) }}" alt="images"></a>
                                 </div>
                                 <div class="project-content">
                                     <div class="portfolio-inner">                                         
                                                                                  
-                                        <h3 class="title"><a href="{{route('portfolio', $item->slug)}}">{{$item->name}}</a></h3>
+                                        <h3 class="title"><a href="{{route('portfolio', $item->slug_name)}}">{{$item->name}}</a></h3>
                                     </div>
                                 </div>
                             </div>
