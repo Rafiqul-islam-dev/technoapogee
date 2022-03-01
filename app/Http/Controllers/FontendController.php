@@ -17,7 +17,6 @@ class FontendController extends Controller
         return view('fontend.home', compact('Project', 'menu'));
     }
 
-
     public function designConsultancy()
     {
         $menu= Menu::get();
@@ -55,14 +54,12 @@ class FontendController extends Controller
         return view('fontend.ongoingProjects', compact('indProject','menu'));
     }
 
-
     public function industryProjects()
     {
         $menu= Menu::get();
-        $indProject = Project::latest()->paginate(10)->where('status', '=', 0)->where('projecttype', '=', 'IP');
+        $indProject = Project::latest()->paginate(50)->where('status', '=', 0)->where('projecttype', '=', 'IP');
         return view('fontend.industryProjects', compact('indProject', 'menu',));
     }
-
 
     public function bankProjects()
     {
@@ -88,7 +85,8 @@ class FontendController extends Controller
     public function hotelResorts()
     {
         $menu= Menu::get();
-        $indProject = Project::where('status', '=', 0)->where('projecttype', '=', 'HRP')->get();
+        // $indProject = Project::latest()->paginate(50)->where('status', '=', 0)->where('projecttype', '=', 'HRP')->get();
+        $indProject = Project::latest()->paginate(50)->where('status', '=', 0)->where('projecttype', '=', 'HRP');
         return view('fontend.hotelProjects', compact('indProject', 'menu'));
     }
 
@@ -109,7 +107,7 @@ class FontendController extends Controller
     public function portfolio($slug_name)
     {
         $menu= Menu::get();
-      // $Project = Project::find($slug_name);
+       // $Project = Project::find($slug_name);
        $Project = Project::where("slug_name", $slug_name)->get();
        //dd($Project);
         return view('fontend.projectDetails', compact('Project', 'menu'));
@@ -118,11 +116,11 @@ public  function aboutUs()
 {
     $menu= Menu::get();
     return view('fontend.aboutUs', compact('menu'));
-
 }
 public function missionVission()
 {
-    dd('ok');
+    $menu= Menu::get();
+    return view('fontend.ourmission', compact('menu'));
 }
 
 public function ourTeam()
@@ -145,13 +143,11 @@ public function enlistment()
     dd('ok');
 }
 
-
 public function contactus()
 {
     $menu= Menu::get();
     return view('fontend.contactUs', compact('menu'));
 }
-
 
 
 }

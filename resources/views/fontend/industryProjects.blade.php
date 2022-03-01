@@ -3,6 +3,12 @@
    @section('title', 'Fire Panel Repair & Maintenance BD - Techno Apogee')
    @section('content')
 
+   <style>
+       .project-img img {
+    width: 100%;
+    height: 300px;
+}
+   </style>
        <!-- Breadcrumbs Start -->
        <div class="rs-breadcrumbs img6">
         <div class="container">
@@ -39,5 +45,11 @@
                 </div>
             </div>
         </div>
+
+
+        {{-- <div class="bg-transparent p-5 rounded-md ">
+            {{ $indProject->withQueryString()->links() }}
+        </div> --}}
+
         <!-- Project Section End -->
         @endsection

@@ -69,7 +69,7 @@
                     </div>
                     <div class="content-part">
                         
-                        <div class="desc"><a href="{{ url($item->slug)}}">{{$item->name}}</a></div>
+                        <div class="desc"><a href="{{ url($item->slug)}}" target="_blank">{{$item->name}}</a></div>
                     </div>
                 </div>
              </div>
