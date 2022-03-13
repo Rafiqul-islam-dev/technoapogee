@@ -2,6 +2,15 @@
    @extends('fontend.layout.masterLayout')
    @section('title', 'Fire Panel Repair & Maintenance BD - Techno Apogee')
    @section('content')
+   <style>
+       .rs-breadcrumbs {
+  background-image: url("public/image/fontend/img/breadcrumbs/inr_6.jpg");
+  /* background-image: url('./public/image/fontend/img/breadcrumbs/inr_6.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+   </style>
 
        <!-- Breadcrumbs Start -->
        <div class="rs-breadcrumbs img6">
@@ -24,7 +33,7 @@
                 <a href="">
                     <div class="project-item">
                         <div class="project-img">
-                            <a href="{{route('portfolio',  $item->slug_name)}}"><img src="{{ URL::to($item->image) }}" alt="images"></a>
+                            <a href="{{route('portfolio',  $item->slug_name)}}"><img src="{{ asset('public')}}/{{ $item->image}}" alt="images"></a>
                         </div>
                         <div class="project-content">
                             <div class="portfolio-inner">                                         

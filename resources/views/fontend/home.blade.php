@@ -16,8 +16,10 @@
     <div id="rs-slider" class="rs-slider slider3">
         <div class="bend niceties">
             <div id="nivoSlider" class="slides">
-                <img src="{{ asset('image/fontend/img/slider/engrieening.png')}}" alt="" title="#slide-1" />
-                <img src="{{ asset('image/fontend/img/slider/installsutation.png')}}" alt="" title="#slide-2" />
+                <img src="{{ asset('public/image/fontend/img/slider/engrieening.png')}}" alt="" title="#slide-1" />
+                <img src="{{ asset('public/image/fontend/img/slider/installsutation.png')}}" alt="" title="#slide-2" />
+                <img src="{{ asset('public/image/fontend/img/slider/pocurement.png')}}" alt="" title="#slide-3" />
+                
             </div>
             <!-- Slide 1 -->
             <div id="slide-1" class="slider-direction">
@@ -47,6 +49,20 @@
                     </div>
                 </div>
             </div>
+            <!-- Slide 3 -->
+            <div id="slide-3" class="slider-direction">
+                <div class="content-part">
+                    <div class="container">
+                        <div class="slider-des">
+                            <h1 class="sl-title">Pocurement</h1>
+                        </div>
+                        
+                        <div class="slider-bottom">
+                            <a class="readon consultant" href="contact.html">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Slider End -->
@@ -58,7 +74,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/design&Consultancy.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/design&Consultancy.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Design & Consultancy Services</a></h4>
                         <div class="desc mb-12">Our Chartered Industrial Engineers and Consultants work with you to provide practical and cost-effective.</div>
@@ -70,7 +86,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/electrical&Fire.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/electrical&Fire.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="{{route('fire-electrical-solution')}}">Fire & Electrical Solution</a></h4>
                         <div class="desc mb-12">Fire & Electrical Solutions is competent to work in all types of domestic & business settings.</div>
@@ -82,7 +98,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid br-none bdru">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/risks.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/risks.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Automation Solution</a></h4>
                         <div class="desc mb-12">The implementation of automation systems regarding building controls has been growing lately, and it is only getting better as technology .</div>
@@ -102,9 +118,9 @@
             <div class="row rs-vertical-middle">
                 <div class="col-lg-6 pr-72">
                     <div class="left-side">
-                        <img src="{{ asset('image/fontend/img/about/about.jpg')}}" alt="">
+                        <img src="{{ asset('public/image/fontend/img/about/about.jpg')}}" alt="">
                         <div class="skill-tag"><span>16</span> Years <br> Experience</div>
-                        <img class="left-pattern" src="{{ asset('image/fontend/img/pattern/pattern1.png')}}" alt="">
+                        <img class="left-pattern" src="{{ asset('public/image/fontend/img/pattern/pattern1.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 md-pt-50">
@@ -137,7 +153,7 @@
                 </div>
             </div>
             <div class="pattern-img">
-                <img class="left-pattern" src="{{ asset('image/fontend/img/pattern/pattern1.png')}}" alt="">
+                <img class="left-pattern" src="{{ asset('public/image/fontend/img/pattern/pattern1.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -154,7 +170,7 @@
                 <div class="col-lg-4 padding-0 pr-1">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/electrical&Fire.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/electrical&Fire.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Electrical & Fire Safety Audit & Consultancy</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>
@@ -166,7 +182,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/noc.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/noc.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">NOC & Fire Safety Plan for FSCD</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>
@@ -178,7 +194,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/busbar.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/busbar.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Busbar Trunking (BBT) Systems</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>
@@ -190,7 +206,7 @@
                 <div class="col-lg-4 padding-0 pr-1">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/fireDetection.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/fireDetection.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Fire Detection & Protection System</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>
@@ -202,7 +218,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/lightingProtection.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/lightingProtection.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Lightning Protection System</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>
@@ -214,7 +230,7 @@
                 <div class="col-lg-4 padding-0">
                     <div class="service-grid">
                         <div class="service-icon mb-23">
-                            <img src="{{ asset('image/fontend/img/icons/home&HotelAutomation.svg')}}" alt="">
+                            <img src="{{ asset('public/image/fontend/img/icons/home&HotelAutomation.svg')}}" alt="">
                         </div>
                         <h4 class="title mb-18"><a href="#">Home & Hotel Automation</a></h4>
                         <div class="desc mb-12">Integer at faucibus urna. Nullam condimentum leo id.</div>

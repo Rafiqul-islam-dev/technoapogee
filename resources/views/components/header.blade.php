@@ -46,7 +46,7 @@
                     <div class="col-cell header-logo">                                  
                         <div class="logo-area">
                             <a href="index.html">
-                                <img src="{{ asset('image/fontend/img/TALogo.PNG')}}" alt="logo">  
+                                <img src="{{ asset('public/image/fontend/img/TALogo.PNG')}}" alt="logo">  
                             </a>
                         </div>
                     </div>

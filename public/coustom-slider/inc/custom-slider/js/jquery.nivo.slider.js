@@ -641,7 +641,7 @@
         boxRows: 4,
         animSpeed: 500,
         manualAdvance: false,
-        pauseTime: 1000,
+        pauseTime: 5000,
         startSlide: 0,
         directionNav: true,
         controlNav: true,
