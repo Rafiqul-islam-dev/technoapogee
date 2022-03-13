@@ -6,6 +6,13 @@
     box-shadow: 0 0 13px 0 #917a7a;
     padding: 20px 6px;
 }
+.rs-breadcrumbs {
+  background-image: url("public/image/fontend/img/breadcrumbs/inr_6.jpg");
+  /* background-image: url('./public/image/fontend/img/breadcrumbs/inr_6.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
 </style>
 
 <main class="main">
@@ -27,7 +34,7 @@
                 <div class="row mt-5 mb-5 weDoMission">
                     <div class="col-lg-6">
                         <div class="weDo">
-                            <img src="{{asset('image/fontend/img/mission.jpg')}}" alt="">
+                            <img src="{{asset('public/image/fontend/img/mission.jpg')}}" alt="">
                         </div>
                     </div>
 

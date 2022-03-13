@@ -9,7 +9,13 @@
     width: 100%;
     height: 400px;
 }
-
+.rs-breadcrumbs {
+  background-image: url("public/image/fontend/img/breadcrumbs/inr_6.jpg");
+  /* background-image: url('./public/image/fontend/img/breadcrumbs/inr_6.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
 </style>
        <!-- Breadcrumbs Start -->
        <div class="rs-breadcrumbs">
@@ -38,7 +44,7 @@
                                 </h2>
                                 
                                 <div class="slider-img portfolio-single">
-                                      <img src="{{ URL::to($item->image) }}" alt="Slider">
+                                      <img src="{{ asset('public')}}/{{ $item->image }}" alt="Slider">
                                 </div>
                                 <p class="margin-0 mt-5">{{$item->projectdetails}}</p>
                                 @endforeach

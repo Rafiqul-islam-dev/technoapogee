@@ -4042,12 +4042,12 @@ body .search-modal .close:hover {
 /* ------------------------------------
     13. Services Section CSS
 ---------------------------------------*/
-.rs-breadcrumbs {
-  background-image: url("/image/fontend/img/breadcrumbs/inr_6.jpg");
+/* .rs-breadcrumbs {
+  background-image: url("./image/fontend/img/breadcrumbs/inr_6.jpg");
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-position: center center !important;
-}
+  background-position: center !important;
+} */
 .rs-services.main-home .services-item {
   display: flex;
 }

@@ -22,6 +22,13 @@
 .productPageInnder {
     margin-bottom: -5px;
 }
+.rs-breadcrumbs {
+  background-image: url("public/image/fontend/img/breadcrumbs/inr_6.jpg");
+  /* background-image: url('./public/image/fontend/img/breadcrumbs/inr_6.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
 </style>
 
 <!-- Breadcrumbs Start -->
@@ -42,7 +49,7 @@
             <div class="col-lg-12 col-md-6 mb-20">
                 <div class="service-wrap">
                 <div class="image-part prodectDetail_img">
-                    <img src="{{ asset($menudata->image)}}" alt="">
+                    <img src="{{ asset('public')}}/{{ $menudata->image}}" alt="">
                 </div>
                     <p>{!! $menudata->description !!}</p>
                 </div>
@@ -65,7 +72,7 @@
             <div class="col-lg-4 col-md-6 mb-20">
                 <div class="service-wrap">
                     <div class="image-part product">
-                        <img src="{{ asset($item->image)}}" alt="">
+                        <img src="{{ asset('public')}}/{{ $item->image}}" alt="">
                     </div>
                     <div class="content-part">
                         

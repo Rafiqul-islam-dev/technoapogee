@@ -1,5 +1,14 @@
 @extends('fontend.layout.masterLayout')
 @section('content')
+<style>
+    .rs-breadcrumbs {
+  background-image: url("public/image/fontend/img/breadcrumbs/inr_6.jpg");
+  /* background-image: url('./public/image/fontend/img/breadcrumbs/inr_6.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+</style>
 
 <main class="main">
         <!--==================== About Header ====================-->
